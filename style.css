@@ -1,0 +1,60 @@
+body {
+    background-image: url(./img/fondo.jpg);
+    background-repeat: round;
+}
+.imagenlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenlogo img {
+    height: 50px;
+}
+.cartelera img {
+    max-width: 300px;
+}
+
+/* .cartelera{
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-content: center;
+} */
+.cartelera {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    background-color: #000000b2;
+    justify-content: space-between;
+}
+.cartelera img {
+    border-radius: 25px;
+    max-height: 30%;
+}
+.card {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    flex: 1 0 auto;
+    margin: 0 auto;
+    /* background-color: #000000b2; */
+    background-color: transparent;
+    color: #f2f2f2;
+}
+
+.card-text {
+    max-width: 300px;
+    overflow: hidden;
+}
+#btninfo,
+.btn {
+    border: 1px solid #ccc;
+    color: #f2f2f2;
+    background-color: #000000b2;
+}
